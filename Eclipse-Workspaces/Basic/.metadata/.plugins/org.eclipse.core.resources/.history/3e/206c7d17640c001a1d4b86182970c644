@@ -1,0 +1,14 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+	
+	int leaders = 10 * (2 + (1 + 2 / 5));
+	int followers = leaders * 2;
+	System.out.print
+	(leaders + followers < 10 ? "Too few" : "Too many");
+}
+}
+
+	
+

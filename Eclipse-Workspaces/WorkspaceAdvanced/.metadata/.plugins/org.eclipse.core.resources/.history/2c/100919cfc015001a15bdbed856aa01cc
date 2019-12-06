@@ -1,0 +1,6 @@
+package com.odessey.model;
+
+public class Mission {
+	private String spaceCraft;
+
+}

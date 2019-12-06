@@ -1,0 +1,21 @@
+package com.odessey.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.odessey.model.LoginModel;
+
+@Controller
+public class HomeController {
+	@RequestMapping("/")
+	public String homepage(){
+		return "home";
+	}
+	@RequestMapping("/logincontroller")
+	public String login(@ModelAttribute("login")){
+		
+		return "login-successful";
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.odessey.repository;
+
+public class OdesseyRepositoryOracle implements OdesseyRepository {
+	
+	public List<Mission> fetchMissionDetails(){
+		
+	}
+
+}

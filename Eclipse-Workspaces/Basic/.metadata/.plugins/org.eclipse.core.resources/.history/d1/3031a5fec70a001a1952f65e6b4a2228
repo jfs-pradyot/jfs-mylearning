@@ -1,0 +1,12 @@
+package package2;
+
+import package1.ClassA;
+
+public class ClassD extends Classa {
+//implement the testPublic method().
+	public void testPublic(){
+		ClassA classA=new ClassA();
+		System.out.println(classA.publicVar);
+		classA.publicMethod();
+	}
+}

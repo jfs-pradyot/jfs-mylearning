@@ -1,0 +1,14 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+
+	String john = "john";
+	String jon = new String(john);
+	String jons=john+jon;
+	
+
+
+	
+}
+}

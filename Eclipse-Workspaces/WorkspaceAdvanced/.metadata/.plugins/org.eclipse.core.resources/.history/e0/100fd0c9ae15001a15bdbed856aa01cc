@@ -1,0 +1,15 @@
+package com.springdemo;
+
+public class AppConfig {
+//	@Bean(name = "productService")
+//	public ProductService getProductService() {
+//		//constructor injection
+//		ProductService productService = new ProductServiceImpl(getProductRepository());
+//		return productService;
+//	}
+//
+//	@Bean(name = "productRepository")
+//	public ProductRepository getProductRepository() {
+//		return new MongoDBRepository();
+//	}
+}

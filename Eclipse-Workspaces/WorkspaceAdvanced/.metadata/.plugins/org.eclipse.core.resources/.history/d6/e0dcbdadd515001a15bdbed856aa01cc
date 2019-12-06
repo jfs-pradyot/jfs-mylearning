@@ -1,0 +1,12 @@
+package com.odessey.service;
+
+import java.util.List;
+
+import com.odessey.model.Mission;
+
+public interface OdesseyService {
+	public List<Mission> getMissionDetails();
+	
+	public List<Mission> getMissionDetails();
+
+}

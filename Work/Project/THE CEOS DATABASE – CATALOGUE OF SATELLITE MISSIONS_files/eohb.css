@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.footer_txt {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	line-height: normal;
+	vertical-align: top;
+}
+.source_txt {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 12px;
+	color: #666;
+	line-height: normal;
+	vertical-align: top;
+}
+.body_copy_white {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	vertical-align: top;
+	text-align: left;
+	line-height: 17px;
+}
+.subnav_white {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	vertical-align: top;
+	text-align: left;
+	line-height: 17px;
+}
+.subnav_white_bold {
+	font-family: 'NotesEsaBold', Arial, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	vertical-align: top;
+	text-align: left;
+	line-height: 17px;
+}
+.body_copy_grey {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 13px;
+	color: #666;
+	vertical-align: top;
+	text-align: left;
+	line-height: 16px;
+}
+.bold_copy_grey {
+	font-family: 'NotesEsaBold', Arial, sans-serif;
+	font-size: 13px;
+	color: #666;
+	vertical-align: top;
+	text-align: left;
+	line-height: 16px;
+}
+.bold_copy_white {
+	font-family: 'NotesEsaBold', Arial, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	vertical-align: top;
+	text-align: left;
+	line-height: 17px;
+}
+.nav_blue {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 14px;
+	color: #44b4ec;
+	line-height: normal;
+}
+.main_heading {
+	font-family: 'NotesEsaBold', Arial, sans-serif;
+	font-size: 64px;
+	color: #FFF;
+	line-height: 66px;
+	text-align: left;
+	vertical-align: top;
+	font-style: normal;
+}
+.main_subhead {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	font-style: normal;
+	vertical-align: top;
+}
+.nav {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: normal;
+}
+.nav_header {
+	font-family: 'NotesEsaRegular', Arial, sans-serif;
+	font-size: 16px;
+	color:#BED9E6;
+	line-height: normal;
+}
+.text_headings {
+	font-family: 'NotesEsaBold', Arial, sans-serif;
+	font-size: 22px;
+	line-height: 21px;
+	color: #006699;
+}
+.text_sub_headings {
+	font-family: 'NotesEsaBold', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: #006699;
+}
+.white_line_divider {
+	background-image: url(images/white_table_divider_line.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+}

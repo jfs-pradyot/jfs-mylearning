@@ -1,0 +1,10 @@
+package com.odessey.model;
+
+public class Astronaut {
+	private String astronautId;
+	private String astronautName;
+	private String astronautGender;
+	private String astronautCountry;
+	
+	
+}

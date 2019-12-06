@@ -1,0 +1,5 @@
+package com.odessey.repository;
+
+public interface OdesseyRepository {
+
+}

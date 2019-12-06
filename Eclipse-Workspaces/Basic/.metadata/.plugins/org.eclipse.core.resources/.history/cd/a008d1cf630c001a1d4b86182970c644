@@ -1,0 +1,15 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+	
+	int time = 11;
+	int day = 4;
+	String dinner = 
+			time > 10 ? day ? "Takeout" : "Salad" : "Leftovers";
+	
+}
+}
+
+	
+

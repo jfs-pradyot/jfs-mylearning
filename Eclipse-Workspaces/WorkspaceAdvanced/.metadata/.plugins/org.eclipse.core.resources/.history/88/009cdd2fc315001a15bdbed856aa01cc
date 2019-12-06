@@ -1,0 +1,7 @@
+package com.odessey.service;
+
+import com.odessey.repository.OdesseyRepository;
+
+public class OdesseyMissionService implements OdesseyRepository {
+
+}

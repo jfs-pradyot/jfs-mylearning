@@ -1,0 +1,14 @@
+package com.odessey.repository;
+
+import java.util.List;
+
+import com.odessey.model.Mission;
+
+public class OdesseyRepositoryOracle implements OdesseyRepository {
+	
+	public List<Mission> fetchMissionDetails(){
+		return null;
+		
+	}
+
+}

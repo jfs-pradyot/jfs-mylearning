@@ -1,0 +1,32 @@
+
+
+package com.firtsproject.basics;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class TestMulti {
+	public static void main(String[] args) {
+		
+		ArrayList<TestMultiComparator> list=new ArrayList();
+		
+		list.add(new TestMultiComparator(24, 28, "Jeet"));
+		list.add(new TestMultiComparator(24, 28, "Kish"));
+		list.add(new TestMultiComparator(7, 17, "Jack"));
+		list.add(new TestMultiComparator(3, 24, "Ajek"));
+		list.add(new TestMultiComparator(24, 28, "Jim"));
+		
+		
+		//size of the list
+		int size=list.size();
+		System.out.println("wihout sorting");
+		for(int x=0;x<size;x++)
+		System.out.println(list.get(x));
+		
+		System.out.println("\nwith sorting");
+		Collections.sort(list, new MultipleVariableSort());
+		for(int x=0;x<size;x++)
+			System.out.println(list.get(x));
+		
+	}
+}

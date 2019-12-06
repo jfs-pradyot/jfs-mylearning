@@ -1,0 +1,11 @@
+package com.demo.dao;
+
+import javax.persistence.EntityManagerFactory;
+
+public class JPAUtil {
+
+	public static EntityManager entitymanager(){
+		
+		return null;
+	}
+}

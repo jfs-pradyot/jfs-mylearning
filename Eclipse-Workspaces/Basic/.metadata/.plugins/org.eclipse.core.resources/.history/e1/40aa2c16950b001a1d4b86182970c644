@@ -1,0 +1,14 @@
+package collections;
+
+public class Employee {
+	
+	public int empid=10;
+	public String name;
+
+	public void getSalary() {
+		System.out.println("Get Salary");
+	}
+public boolean add(int a){
+	return true;
+}
+}

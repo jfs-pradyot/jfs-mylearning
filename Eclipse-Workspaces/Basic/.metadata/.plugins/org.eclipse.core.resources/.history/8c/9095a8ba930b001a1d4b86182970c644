@@ -1,0 +1,32 @@
+package collections;
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class CollectionsTask {
+	Employee employee = new Employee();
+	PermanentEmployee permanent = new PermanentEmployee();
+	ContractEmployee contract = new ContractEmployee();
+	
+	public void addDetails(Employee employee,
+			PermanentEmployee permanent,
+			ContractEmployee contract){
+		List<Integer> list=new ArrayList();
+		Map<list,Employee> map=new HashMap();
+		
+		Set<Employee> set=new TreeSet();
+		
+		list.add(employee.empid);
+		set.add(permanent);
+		set.add(contract);
+		
+		map.put(list, set);
+		
+		
+	}
+}

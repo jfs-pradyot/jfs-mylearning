@@ -1,0 +1,20 @@
+package com.firtsproject.basics;
+
+public class CricketMatch extends Tournament{
+
+}
+
+
+abstract class Tournament{
+	abstract void IPL();
+	abstract void CPL();
+	
+}
+
+interface Teams{
+	
+	int players=15;
+	void nationality();
+	void nameOfTeam();
+}
+

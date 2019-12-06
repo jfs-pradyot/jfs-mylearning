@@ -1,0 +1,6 @@
+package com.odessey.controller;
+
+@Controller
+public class HomeController {
+
+}

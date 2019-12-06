@@ -1,0 +1,14 @@
+package collections;
+
+public class TestLambda {
+public static void main(String[] args) {
+	
+}
+
+class TestRunnable implements Runnable{
+	public void run(){
+		
+	}
+}
+
+}

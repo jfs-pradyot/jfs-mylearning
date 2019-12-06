@@ -1,0 +1,28 @@
+package com.firtsproject.basics;
+
+import java.util.Comparator;
+
+ public class TestMultiComparatot {
+	public int rollNo;
+	public int age;
+	public String name;
+	
+	public TestMultiComparatot(int rollNo,int age,String name) {
+		this.rollNo=rollNo;
+		this.age=age;
+		this.name=name;
+	}
+
+	@Override
+	public String toString() {
+		return "rollNo=" + rollNo + " age=" + age + " name=" + name;
+	}
+	
+	
+ }
+
+
+
+	
+
+

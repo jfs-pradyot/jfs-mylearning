@@ -1,0 +1,14 @@
+package com.firtsproject.basics;
+
+import java.util.ArrayList;
+
+public class TestComp {
+	public static void main(String[] args) {
+		
+		ArrayList<TestComparator> list=new ArrayList<>();
+		list.add(new TestComparator(5, 20, "Peter"));
+		list.add(new TestComparator(8, 22, "Jack"));
+		list.add(new TestComparator(10, 28, "Jim"));
+		
+	}
+}

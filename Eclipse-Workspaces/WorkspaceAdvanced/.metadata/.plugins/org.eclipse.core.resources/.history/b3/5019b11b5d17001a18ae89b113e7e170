@@ -1,0 +1,8 @@
+package com.hibernate.entity;
+
+public class Student {
+
+	private int studentId;
+	praivate String studentName;
+	
+}

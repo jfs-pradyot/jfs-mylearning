@@ -1,0 +1,20 @@
+package com.firtsproject.basics;
+
+public class Test {
+
+}
+
+
+class Test1{
+	//class or static variable
+	static int x=100;
+	//instance variable
+	int y=200;
+	
+	void display(){
+		System.out.println(x);
+		System.out.println(y);
+	}
+	
+	
+}

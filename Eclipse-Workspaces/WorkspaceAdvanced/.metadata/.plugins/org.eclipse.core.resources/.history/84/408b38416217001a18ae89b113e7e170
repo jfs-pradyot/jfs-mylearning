@@ -1,0 +1,56 @@
+package com.demo.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import com.demo.entity.Student;
+
+public class StudentOracleDao implements StudentDao {
+	
+	private EntityManager entitymanager;
+	
+	public  StudentOracleDao() {
+		entitymanager= JPAUtil.entitymanager();
+	}
+	
+
+	@Override
+	public Student getStudentById(int id) {
+
+		return null;
+	}
+
+	@Override
+	public void addStudent(Student student) {
+
+		
+	}
+
+	@Override
+	public void removeStudent(Student student) {
+
+		
+	}
+
+	@Override
+	public void updateStudent(Student student) {
+
+		
+	}
+
+	@Override
+	public void commitTransaction() {
+		
+		
+	}
+
+	@Override
+	public void beginTransaction() {
+		
+		
+	}
+
+	
+}

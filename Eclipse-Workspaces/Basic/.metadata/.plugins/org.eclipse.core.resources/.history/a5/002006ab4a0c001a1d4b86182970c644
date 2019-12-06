@@ -1,0 +1,18 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+
+	switch(5){
+	
+	default:
+	
+	
+	
+	}
+	
+
+
+	
+}
+}

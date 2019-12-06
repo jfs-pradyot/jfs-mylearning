@@ -1,0 +1,49 @@
+package com.demo.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import com.demo.entity.Student;
+
+public class StudentOracleDao implements StudentDao {
+
+	@Override
+	public Student getStudentById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addStudent(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeStudent(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateStudent(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void commitTransaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void beginTransaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

@@ -1,0 +1,19 @@
+Project
+
+Procedure to follow
+
+<PROJECT : EZSHOP, (NOTE: It would be your own project in this case)>
+
+SCENARIO :
+<A core java app is required to display the ProductDetails, which are stored in two repositories, BooksRepository, GadgetsRepository. > <Design the App, Services, Repos, Database tables.>
+
+NOTE : Project shoulD be named as <project-*****> as given below and pushed onto your github repository named
+TASK 1 : IMPLEMENT XML CONFIGURATION, "project name : ezshop-xml-config"
+TASK 2 : IMPLEMENT ANNOTATION CONFIGURATION "project name : ezshop-annotation-config"
+TASK 3 : IMPLEMENT JAVA CONFIGURATION "project name : ezshop-java-config"
+
+
+#Github
+Repository name: jfs-repo
+Project name: <Odessey>
+package naming convention: 

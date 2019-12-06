@@ -1,0 +1,19 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+
+
+
+	
+	
+	}
+	
+void hello(){
+	System.out.println("1");
+	int f= 5>=5 ? 2 : 1;
+	5>=2 ? System.out.println("hi"):System.out.println("bye");;
+}
+
+	
+}

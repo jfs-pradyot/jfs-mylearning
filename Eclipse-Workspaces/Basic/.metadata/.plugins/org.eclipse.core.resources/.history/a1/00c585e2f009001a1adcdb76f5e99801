@@ -1,0 +1,22 @@
+package com.firtsproject.basics;
+
+public class RestrictingPrmitiveValues {
+
+}
+
+class Employee{
+	private int age;
+	
+	public void setAge(int age){
+		if(age>15 && age<66){
+		this.age=age;
+		}
+		else{
+			System.out.println("invalid range");
+		}
+	}
+	
+	public int getAge(){
+		return age;
+	}
+}

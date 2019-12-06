@@ -1,0 +1,5 @@
+package com.springdemo.repository;
+
+public interface ProductRepository {
+
+}

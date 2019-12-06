@@ -1,0 +1,16 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+	String str="hello";
+System.out.println("start");
+boolean value=true;
+if(value==true)
+return;
+System.out.println("ss");
+
+
+
+	
+}
+}

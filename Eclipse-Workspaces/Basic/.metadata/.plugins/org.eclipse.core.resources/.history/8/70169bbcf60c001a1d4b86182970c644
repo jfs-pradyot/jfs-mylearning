@@ -1,0 +1,7 @@
+package com.firtsproject.basics;
+
+public class TestComp {
+	public static void main(String[] args) {
+		
+	}
+}

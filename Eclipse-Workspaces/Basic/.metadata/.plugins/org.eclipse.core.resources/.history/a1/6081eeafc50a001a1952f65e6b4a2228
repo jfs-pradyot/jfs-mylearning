@@ -1,0 +1,15 @@
+package xample1;
+
+import xamples.ClassA;
+
+public class ClassE extends ClassA {
+
+ void varname(){
+		
+	}
+
+	public void Test(){
+		ClassA classA= new ClassA();
+		classA.varname();
+	}
+}

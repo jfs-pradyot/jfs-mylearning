@@ -1,0 +1,16 @@
+package Streams;
+
+import java.io.File;
+import java.io.FileOutputStream;
+
+public class TestFileOutputStream {
+	public static void main(String[] args) throws IOException{
+		String str="Hi, this is a outputstream program";
+		byte [] stringInByte=str.getBytes();
+		File file;
+		String filePath="hellostream.txt";
+		FileOutputStream fileoutputstream =new FileOutputStream(file);
+		
+	}
+
+}

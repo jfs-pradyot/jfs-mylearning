@@ -1,0 +1,58 @@
+package collections;
+
+import java.io.File;
+import java.io.FileFilter;
+
+public class TestLambda {
+public static void main(String[] args) {
+	
+	
+	
+	
+	
+	Thread even=new Thread(()->{
+		for(int x=0;x<=50;x+=2){
+			System.out.println("odd");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+	});
+	Thread odd=new Thread(()->{
+		for(int x=1;x<=50;x+=2){
+			System.out.println("even");
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	});
+		even.start();
+		
+		odd.start();
+		
+	
+}
+
+class TestRunnableOdd implements Runnable{
+	public void run(){
+		
+	}
+}
+
+class TestFileFilter implements FileFilter{
+
+	@Override
+	public boolean accept(File pathname) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}
+}

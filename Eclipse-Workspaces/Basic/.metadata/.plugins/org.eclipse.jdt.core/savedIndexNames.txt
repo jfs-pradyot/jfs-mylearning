@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+C:\Training\Edclipse-Workspaces\Basic\.metadata\.plugins\org.eclipse.jdt.core
+4205075866.index
+1976468122.index
+107573622.index

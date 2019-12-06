@@ -1,0 +1,13 @@
+package com.odessey.service;
+
+import java.util.List;
+
+import com.odessey.model.Mission;
+
+public class OdesseyAstronautService implements OdesseyService {
+	
+	public List<Mission> getAstronautDetails(){
+		return null;
+	}
+
+}

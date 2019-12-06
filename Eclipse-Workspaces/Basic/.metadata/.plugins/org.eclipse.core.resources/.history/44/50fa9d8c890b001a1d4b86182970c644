@@ -1,0 +1,10 @@
+package collections;
+
+public class Employee {
+	public String name;
+
+	public void getSalary() {
+		System.out.println("Get Salary");
+	}
+
+}

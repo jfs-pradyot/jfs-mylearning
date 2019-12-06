@@ -1,0 +1,20 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+	
+	int dayOfWeek=9;
+	final int saturday = 6;
+	switch(dayOfWeek) {
+	default:
+	System.out.print("Another Weekday");
+	break;
+	case saturday:
+	System.out.print("Weekend!");
+		
+	}
+	
+}
+
+	
+

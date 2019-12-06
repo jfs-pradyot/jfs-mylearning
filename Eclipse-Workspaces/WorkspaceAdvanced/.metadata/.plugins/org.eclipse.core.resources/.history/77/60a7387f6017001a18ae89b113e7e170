@@ -1,0 +1,25 @@
+package com.demo.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import com.demo.entity.Student;
+
+public class StudentOracleDao implements StudentDao {
+
+	@Override
+	public List<Student> fetchStudentDetails() throws SQLException {
+
+		return null;
+	}
+
+	@Override
+	public List<Student> saveStudentDetails() throws SQLException {
+		EntityManager entitymanager;
+		entitymanager=JPAUtil.entitymanager();
+		return null;
+	}
+
+}

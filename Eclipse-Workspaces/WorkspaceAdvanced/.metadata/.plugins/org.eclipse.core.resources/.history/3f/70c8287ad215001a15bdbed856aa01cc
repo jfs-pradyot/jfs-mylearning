@@ -1,0 +1,15 @@
+package com.odessey.app;
+
+import com.odessey.service.OdesseyService;
+
+public class Application {
+
+	private OdesseyService odesseyService;
+	private static void viewMissionDetails(){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

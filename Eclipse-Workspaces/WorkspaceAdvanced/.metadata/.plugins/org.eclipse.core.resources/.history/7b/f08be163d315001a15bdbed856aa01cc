@@ -1,0 +1,18 @@
+package com.odessey.app;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.odessey.service.OdesseyService;
+
+public class Application {
+
+	
+	private  static void viewMissionDetails(){
+		ApplicationContext applicationcontext=new ClassPathXmlApplicationContext("");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

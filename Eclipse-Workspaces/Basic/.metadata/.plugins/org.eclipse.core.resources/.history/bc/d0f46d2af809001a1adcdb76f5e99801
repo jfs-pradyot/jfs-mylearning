@@ -1,0 +1,61 @@
+package com.firtsproject.basics;
+
+public class Mobile {
+	public static void main(String[] args) {
+		MobileDetails details=new MobileDetails();
+		details.setCharging(50);
+		details.setModel("Samsung");
+		details.setSims(2);
+		
+		System.out.println(details);
+		System.out.println("hello, welcome");
+		
+		
+//		System.out.println("no of sim/s = "+details.getSims());
+//		System.out.println("Total percentage of charging = "+details.getCharging()+"%");
+//		System.out.println("Name of the model"+details.getModel());
+	}
+}
+
+/**
+ * @author User
+ *
+ */
+class MobileDetails{
+	
+	private int sims;
+	private String model;
+	private int charging;
+	public int getSims() {
+		return sims;
+	}
+	public void setSims(int sims) {
+		if(sims==1 || sims==2){
+		this.sims = sims;
+		}
+		else{
+			System.out.println("invalid sim selection");
+		}
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public int getCharging() {
+		return charging;
+	}
+	public void setCharging(int charging) {
+		if(charging>=1 && charging <=100)
+		this.charging = charging;
+		else{
+			System.out.println("value not accepted");
+		}
+	}
+	
+	public String toString(){
+		return sims+ "\n" + charging+ "\n"+ model;
+	}
+
+}

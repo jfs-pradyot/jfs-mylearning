@@ -1,0 +1,24 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+
+
+	int flair = 15;
+	if(flair >= 15 && flair < 37) {
+	System.out.print("Not enough");
+	} if(flair==37) {
+	System.out.print("Just right");
+	} 
+	return;
+	System.out.print("Too many");
+	}
+	
+	
+	
+	
+	
+}
+
+	
+

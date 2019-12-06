@@ -1,0 +1,14 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+
+	switch(0){
+	final case 1:
+		
+	}
+	
+}
+
+	
+}

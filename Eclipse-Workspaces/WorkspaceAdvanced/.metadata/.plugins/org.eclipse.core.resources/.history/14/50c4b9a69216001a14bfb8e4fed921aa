@@ -1,0 +1,12 @@
+package com.odessey.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	
+	public String homepage(){
+		return "home";
+	}
+
+}

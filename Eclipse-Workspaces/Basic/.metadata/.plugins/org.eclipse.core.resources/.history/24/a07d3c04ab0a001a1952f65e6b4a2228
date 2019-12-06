@@ -1,0 +1,27 @@
+package com.firtsproject.basics;
+
+public class CricketMatch  {
+
+}
+
+
+abstract class Tournament{
+	abstract void namOfTournament();
+	abstract void totalTeams();
+	
+}
+
+interface Teams{
+	
+	int players=15;
+	void nationality();
+	void nameOfTeam();
+}
+
+interface Venue{
+	void nameOfVenue();
+	void locationOfVenue();
+
+}
+
+

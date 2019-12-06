@@ -1,0 +1,11 @@
+package com.firtsproject.basics;
+
+import java.util.ArrayList;
+
+public class TestComp {
+	public static void main(String[] args) {
+		
+		ArrayList<> list=new ArrayList<>();
+		
+	}
+}

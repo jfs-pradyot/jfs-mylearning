@@ -1,0 +1,66 @@
+package collections;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class CollectionsWithGenerics {
+	PermanentEmployee permanent= new PermanentEmployee();
+	ContractEmployee contract = new ContractEmployee();
+public static void main(String[] args) {
+	CollectionsWithGenerics obj=new CollectionsWithGenerics();
+//	obj.withoutGenerics();
+	obj.withGenerics();
+	iteratorWithGenerics();
+	
+}
+
+public  void withoutGenerics(){
+	
+	
+	List list=new ArrayList();
+	list.add(permanent);
+	list.add(contract);
+	System.out.println(list);
+}
+
+public void withGenerics(){
+	List  list=new ArrayList<PermanentEmployee>();
+//	ArrayList<ContractEmployee> arraylist= (ArrayList)list;
+	list.add(permanent);
+	list.add(contract);
+//	arraylist.add(contract);
+//	arraylist.add(permanent);
+	
+	System.out.println(list);
+	
+}
+
+public static void iteratorWithGenerics(){
+	List<String>  list=new ArrayList();
+//	ArrayList<ContractEmployee> arraylist= (ArrayList)list;
+	list.add("String1");
+	list.add("String2");
+//	arraylist.add(contract);
+//	arraylist.add(permanent);
+	
+	Iterator<String> iterator=list.iterator();
+	
+	while(iterator.hasNext()){
+		String str=iterator.next();
+		System.out.println(str);
+	}
+	
+}
+
+public void testWithGenerics(){
+	
+	List<Integer> list=new ArrayList();
+	list.add(2);
+	list.add("hello");
+	
+	
+}
+
+}

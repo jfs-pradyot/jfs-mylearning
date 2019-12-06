@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.BodyCopy {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.NavCopy {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.IndexHeaderCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	color: #009933;
+	font-weight: bold;
+	line-height: 38px;
+}
+.IndexSubHeadCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: normal;
+	line-height: 40px;
+}
+.BodyCopyWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.PageSubHeadCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #009933;
+	font-weight: bold;
+}
+.PageSubSubHeadCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #005e9d;
+	font-weight: bold;
+}
+.BodyCopyBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #005e9d;
+}

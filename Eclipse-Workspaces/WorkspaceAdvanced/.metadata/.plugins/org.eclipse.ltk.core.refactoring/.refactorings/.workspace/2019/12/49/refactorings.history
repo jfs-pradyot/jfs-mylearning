@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ezshop-annotation-config&apos; to &apos;odessey-annotation-config&apos;" description="Rename resource &apos;ezshop-annotation-config&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ezshop-annotation-config" name="odessey-annotation-config" stamp="1575442121506" updateReferences="true"/>
+</session>

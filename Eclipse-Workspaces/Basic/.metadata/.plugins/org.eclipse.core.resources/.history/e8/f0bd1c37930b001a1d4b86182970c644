@@ -1,0 +1,16 @@
+package collections;
+
+import java.util.HashMap;
+
+public class CollectionsTask {
+	Employee employee = new Employee();
+	PermanentEmployee permanent = new PermanentEmployee();
+	ContractEmployee contract = new ContractEmployee();
+	
+	public void addDetails(Employee employee,
+			PermanentEmployee permanent,
+			ContractEmployee contract){
+		
+		Map<Integer,Employee> map=new HashMap();
+	}
+}

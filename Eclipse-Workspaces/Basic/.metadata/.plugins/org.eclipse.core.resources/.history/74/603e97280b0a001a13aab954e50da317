@@ -1,0 +1,36 @@
+package com.firtsproject.basics;
+
+public class Product {
+
+	public static void main(String[] args) {
+		
+	
+	Product1 product1=new Product1();
+	Product2 product2=new Product2();
+	
+	 product1.price=200;
+	 product1.tax=50;
+	 
+	 product2.price=150;
+	 product2.tax=40;
+	 Product product=new Product();
+	int getSum=product.addProduct(product1,product2);
+	System.out.println(getSum);
+	}
+	public int addProduct(Product1 product1,Product2 product2){
+		int productSum= (product1.price+product1.tax)
+				+product2.price+product2.tax;
+		return productSum;
+	}
+}
+
+class Product1{
+	public int price;
+	public int tax;
+	
+	
+}
+class Product2{
+	public int price;
+	public int tax;
+}

@@ -1,0 +1,25 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+
+//	long thatNumber = 5 >= 5 ? 1+2 : 1*1;
+	long thatNumber= 3;
+	int x=4;
+	x+=1;
+	System.out.println(x);
+	x+=3;
+	System.out.println(x);
+	x-=2;
+	System.out.println(x);
+	if(++thatNumber < 4)
+	thatNumber += 1;
+	System.out.println(thatNumber);
+	
+	
+	}
+	
+
+
+	
+}

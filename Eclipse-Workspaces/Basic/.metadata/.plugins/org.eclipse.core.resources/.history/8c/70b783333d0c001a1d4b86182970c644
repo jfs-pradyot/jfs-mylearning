@@ -1,0 +1,20 @@
+package collections;
+
+import java.io.IOException;
+
+public class TestException {
+	public static void main(String[] args) {
+		
+	}
+	
+	void test(){
+		System.out.println("this is test method");
+		throw new MyException();
+	}
+}
+
+class MyException extends IOException{
+	MyException(){
+		System.out.println("This is Myexception");
+	}
+}

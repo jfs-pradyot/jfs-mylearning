@@ -1,0 +1,11 @@
+package Streams;
+
+import java.io.File;
+
+public class TestFileOutputStream {
+	public static void main(String[] args) {
+		String str="Hi, this is a outputstream program";
+		File file= new File();
+	}
+
+}

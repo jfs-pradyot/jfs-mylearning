@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+		
+		<!-- Bean Declrations -->
+		
+<bean name="odesseyrepositoryoracle" class="com.odessey.repository.OdesseyRepositoryOracle"></bean>
+<bean name="odesseyrepositorymysql" class="com.odessey.repository.OdesseyRepositoryMySql"></bean>
+
+		<!-- Bean Injections -->
+		
+<bean name="odesseymissionservice" class="com.odessey.service.OdesseyMissionService">
+<property name="odesseyRepository" ref="odesseyrepositoryoracle"></property>
+</bean>
+		
+		
+		
+		</beans>

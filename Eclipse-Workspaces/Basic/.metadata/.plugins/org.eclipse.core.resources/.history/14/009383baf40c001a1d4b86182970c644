@@ -1,0 +1,14 @@
+package com.firtsproject.basics;
+
+public class TestComparator {
+	public int rollNo;
+	public int age;
+	public String name;
+	
+	public TestComparator(int rollNo,int age,String name) {
+		this.rollNo=rollNo;
+		this.age=age;
+		this.name=name;
+	}
+	
+}

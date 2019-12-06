@@ -1,0 +1,35 @@
+package collections;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class CollectionsWithGenerics {
+	PermanentEmployee permanent= new PermanentEmployee();
+	ContractEmployee contract = new ContractEmployee();
+public static void main(String[] args) {
+	CollectionsWithGenerics obj=new CollectionsWithGenerics();
+//	obj.withoutGenerics();
+	obj.withGenerics();
+	
+}
+
+public  void withoutGenerics(){
+	
+	
+	List list=new ArrayList();
+	list.add(permanent);
+	list.add(contract);
+	System.out.println(list);
+}
+
+public void withGenerics(){
+	List  list=new ArrayList<PermanentEmployee>();
+	ArrayList arraylist= (List)list;
+	list.add(permanent);
+	list.add(contract);
+	
+	System.out.println(list);
+	
+}
+}

@@ -1,0 +1,42 @@
+package collections;
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class CollectionsTask {
+	
+	
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		PermanentEmployee permanent = new PermanentEmployee();
+		ContractEmployee contract = new ContractEmployee();
+		VirtualEmployee virtual=new VirtualEmployee();
+		
+		CollectionsTask task=new CollectionsTask();	
+		
+		addDetails(employee,permanent,contract);
+	}
+	
+	public static void addDetails(Employee employee,
+			PermanentEmployee permanent,
+			ContractEmployee contract,VirtualEmployee virtual){
+		employee.empid=10;
+		List<Integer> list=new ArrayList();
+		list.add(employee.empid);
+		
+		List<Employee> listPermanent=new ArrayList();
+		listPermanent.add(permanent);
+		
+		Set<virtual> set =new Set(); 
+		
+		System.out.println(list);
+		System.out.println(listPermanent);
+		
+		
+	}
+}

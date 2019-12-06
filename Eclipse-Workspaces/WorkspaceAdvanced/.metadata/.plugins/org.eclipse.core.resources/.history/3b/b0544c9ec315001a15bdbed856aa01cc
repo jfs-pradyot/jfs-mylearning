@@ -1,0 +1,9 @@
+package com.odessey.service;
+
+
+
+public class OdesseyAstronautService implements OdesseyService {
+	
+	
+
+}

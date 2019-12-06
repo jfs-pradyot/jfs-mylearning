@@ -1,0 +1,27 @@
+package collections;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class CollectionsWithGenerics {
+public static void main(String[] args) {
+	
+	withoutGenerics();
+	
+}
+
+public static void withoutGenerics(){
+	PermanentEmployee permanent= new PermanentEmployee();
+	ContractEmployee contract = new ContractEmployee();
+	
+	List list=new ArrayList();
+	list.add(permanent);
+	list.add(contract);
+	System.out.println(list);
+}
+
+public static void withGenerics(){
+	List list=new ArrayList();
+	list.add(02);
+}
+}

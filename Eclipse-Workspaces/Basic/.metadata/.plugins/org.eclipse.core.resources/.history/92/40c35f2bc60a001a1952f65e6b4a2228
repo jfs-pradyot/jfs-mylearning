@@ -1,0 +1,19 @@
+package xample1;
+
+import xamples.ClassA;
+
+public class ClassE extends ClassA {
+
+	public static void main(String[] args) {
+		ClassE classE=new ClassE();
+		Test();
+	}
+protected void varname(){
+		System.out.println();
+	}
+
+	public void Test(){
+		ClassA classA= new ClassA();
+		varname();
+	}
+}

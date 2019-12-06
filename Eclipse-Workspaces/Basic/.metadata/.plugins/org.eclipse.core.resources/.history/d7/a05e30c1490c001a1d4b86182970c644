@@ -1,0 +1,13 @@
+package OperatorsandDecisions;
+
+public class TestClass {
+public static void main(String[] args)throws NullPointerException {
+	int meal = 5;
+	int tip = 2;
+	int total = meal + (meal>6 ? ++tip : tip);
+	System.out.println(total);
+
+
+	
+}
+}

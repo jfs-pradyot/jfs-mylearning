@@ -1,0 +1,10 @@
+package xamples;
+
+public class ClassA {
+	protected int var=100;
+	
+	protected void varname(){
+		System.out.println("ClassA");
+	}
+
+}

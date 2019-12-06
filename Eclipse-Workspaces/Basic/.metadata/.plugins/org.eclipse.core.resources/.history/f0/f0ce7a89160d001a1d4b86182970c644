@@ -1,0 +1,34 @@
+package com.firtsproject.basics;
+
+import java.util.Comparator;
+
+ public class TestComparatotMulti {
+	public int rollNo;
+	public int age;
+	public String name;
+	
+	public T(int rollNo,int age,String name) {
+		this.rollNo=rollNo;
+		this.age=age;
+		this.name=name;
+	}
+
+	@Override
+	public String toString() {
+		return "rollNo=" + rollNo + " age=" + age + " name=" + name;
+	}
+	
+	
+ }
+class SortByAge implements Comparator<T>{
+		
+	public int compare(T obj,T obj1){
+		
+		return obj.age-obj1.age;
+		
+	}
+
+}
+	
+
+

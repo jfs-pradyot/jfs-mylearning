@@ -1,0 +1,10 @@
+package xamples;
+
+public class ClassA {
+	int var=100;
+	
+	void varname(){
+		
+	}
+
+}

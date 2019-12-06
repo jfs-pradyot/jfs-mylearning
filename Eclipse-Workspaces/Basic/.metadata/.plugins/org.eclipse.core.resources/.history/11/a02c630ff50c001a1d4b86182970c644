@@ -1,0 +1,25 @@
+package com.firtsproject.basics;
+
+import java.util.Comparator;
+
+public class TestComparator {
+	public int rollNo;
+	public int age;
+	public String name;
+	
+	public TestComparator(int rollNo,int age,String name) {
+		this.rollNo=rollNo;
+		this.age=age;
+		this.name=name;
+	}
+	
+class SortByAge implements Comparator<TestComparator>{
+		
+	public int compare(TestComparator obj,TestComparator obj1){
+		return 0;
+		
+	}
+	
+}
+	
+}
