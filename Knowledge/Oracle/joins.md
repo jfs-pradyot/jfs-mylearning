@@ -7,8 +7,7 @@
 
 # Study of a join.
 ### Components of a join
-
-![Components if join](joins.png)
+![Components of join](https://user-images.githubusercontent.com/58257140/71622412-89fbfd00-2bfb-11ea-8032-c3eebe337519.png)
 
 ## Working
 ```sql 
@@ -70,7 +69,9 @@ Combination of inner, left and right outer join
 Explanation:
 Take account of employee manager situation
 
-![](self_join.png)
+![Self Join](https://user-images.githubusercontent.com/58257140/71622433-b0219d00-2bfb-11ea-8748-eb4f7a2bead4.png)
  
+# Types Of Joins
+![Types of Joins](https://user-images.githubusercontent.com/58257140/71622465-e4955900-2bfb-11ea-9e31-330272594e42.png)
 
 
