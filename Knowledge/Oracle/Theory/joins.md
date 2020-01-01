@@ -70,7 +70,7 @@ Combination of inner, left and right outer join
 Explanation:
 Take account of employee manager situation
 
-![](self_join.png)
+![](G:\coding\Oracle\globalex\Theory\self_join.png)
  
 
 
